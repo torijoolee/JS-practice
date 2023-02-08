@@ -1,5 +1,5 @@
 .tab-button {
-  display: block;
+  /* display: block; */
   padding: 10px 20px 10px 20px;
   float: left;
   margin-right: -1px;
@@ -9,13 +9,13 @@
   cursor: pointer;
 }
 
-.tab-content {
+/* .tab-content {
   display: none;
   padding: 10px;
 }
 .show {
   display: block;
-}
+} */
 
 .orange {
   border-top: 2px solid orange;
@@ -36,4 +36,10 @@ ul.list::after {
   content: "";
   display: block;
   clear: both;
+}
+.tab-content {
+  display: none;
+}
+.show {
+  display: block;
 }
